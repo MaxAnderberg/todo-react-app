@@ -26,7 +26,7 @@ const Main = () => {
   return (
     <main className="main-container-flex">
       <Form onAdd={createTask} />
-      <TaskList tasks={tasks} onDelete={removeTask} onToggle={toggleDone} />
+      <TaskList tasks={tasks} removeTask={removeTask} toggleDone={toggleDone} />
     </main>
   );
 };
