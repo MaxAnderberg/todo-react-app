@@ -1,0 +1,15 @@
+.top-header {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    &__title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+  
+    &__description {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 100;
+    }
+  }
