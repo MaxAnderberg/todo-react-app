@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addTodoAction } from '../../features/actions/actions';
+
 import './Form.scss';
 
-const Form = ({ onAdd }) => {
+const Form = () => {
+  const dispatch = useDispatch();
   const [name, addText] = useState('');
   const [description, addDescription] = useState('');
   const onSubmit = event => {
@@ -10,12 +14,8 @@ const Form = ({ onAdd }) => {
     if (name == null || /^ +$/.test(name)) {
       return;
     }
+    dispatch(addTodoAction(name, description));
 
-    onAdd({
-      name,
-      description,
-      done: false,
-    });
     addText('');
     addDescription('');
   };
