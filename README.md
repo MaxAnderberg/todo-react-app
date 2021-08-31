@@ -4,7 +4,8 @@
 The Todoer is a simple, minimalistic todo app written in [React](https://github.com/facebook/react). The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Demo
-https://todoer-react.herokuapp.com/
+Check out a live version of the todo app [here](https://todoer-react.herokuapp.com/). The app is being hosted on [Heroku](https://www.heroku.com/).
+
 
 ## Scripts 
 
