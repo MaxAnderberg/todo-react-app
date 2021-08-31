@@ -1,3 +1,4 @@
+![An image of the app in desktop view](/images/desktop-view.png)
 
 # The Todoer
 
@@ -9,4 +10,4 @@ Check out a live version of the todo app [here](https://todoer-react.herokuapp.c
 
 ## Scripts 
 
-To run the project locally on your machine run`npm start` in your terminal.
+To run the project locally on your machine run `npm start` in your terminal.
