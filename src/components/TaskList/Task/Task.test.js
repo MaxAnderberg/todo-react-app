@@ -18,4 +18,4 @@ test('should reneder task component as done', () => {
     const taskElement = screen.getByRole('article');
     expect(taskElement).toHaveTextContent('Buy Milk');
     expect(taskElement).toHaveClass('done');
-})
+});
